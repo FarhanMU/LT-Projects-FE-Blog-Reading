@@ -1,0 +1,46 @@
+{
+    "title": "Blog Reading",
+    "name": "Blog Reading Online",
+    "version": "5.0.9",
+    "scripts": {
+        "start": "node_modules/.bin/gulp watch"
+    },
+    "description": "Blog reading with the bootstrap framework",
+    "keywords": [
+        "css",
+        "sass",
+        "html",
+        "responsive",
+        "theme",
+        "template",
+        "book",
+        "reading"
+    ],
+    "license": "LiteTeknoID",
+    "author": "Aditiya Permana",
+    "contributors": [
+        "Aditiya Permana (https://adprm.github.io)"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/adprm/LT-Projects/tree/FE-Blog-Reading"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-free": "5.13.0",
+        "bootstrap": "4.5.0",
+        "jquery": "3.5.1"
+    },
+    "devDependencies": {
+        "browser-sync": "2.26.7",
+        "del": "5.1.0",
+        "gulp": "4.0.2",
+        "gulp-autoprefixer": "7.0.1",
+        "gulp-clean-css": "4.3.0",
+        "gulp-header": "2.0.9",
+        "gulp-plumber": "^1.2.1",
+        "gulp-rename": "2.0.0",
+        "gulp-sass": "4.1.0",
+        "gulp-uglify": "3.0.2",
+        "merge-stream": "2.0.0"
+    }
+}
